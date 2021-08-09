@@ -46,7 +46,7 @@
         </div>
         <div class="col-lg-6">
         <div class="video-button">
-        <a href="https://www.youtube.com/watch?v=rl93WvCJt-U" class="popup-youtube video-btn">
+        <a href="https://www.facebook.com/watch/?ref=search&v=4408772222479233&external_log_id=8180bd05-ec94-4c85-9905-50a19b345914&q=dansharif%20college" class="popup-youtube video-btn">
         <i class="flaticon-play-button"></i>
         </a>
         </div>
@@ -107,7 +107,7 @@
 </section>
 
 
-<!-- <section class="simple-steps-area pt-100 pb-70">
+<section class="simple-steps-area pt-100 pb-70">
 <div class="container">
 <div class="section-title">
 <h2>Simple steps to start</h2>
