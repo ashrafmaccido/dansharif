@@ -28,13 +28,13 @@
             </div>
         </div>
     </div>
-    <div class="navbar-area navbar-area-bg" style="background-color: #222454 !important;">
-        <div class="mobile-responsive-nav" style="background-color: #222454 !important;">
+    <div class="navbar-area">
+        <div class="mobile-responsive-nav">
             <div class="container">
                 <div class="mobile-responsive-menu">
                     <div class="logo">
                         <a href="/">
-                            <img src="assets/images/logo.png" width="25%" alt="logo">
+                            <img src="{{ asset('assets/images/logo.png') }}" alt="logo">
                         </a>
                     </div>
                     <div class="others-options-for-mobile-devices">
@@ -44,57 +44,50 @@
                                     APPLY NOW
                                 </a>
                             </li>
-                            <li>
-                                <button type="button" class="search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalsrc">
-                                    <i class="ri-search-line"></i>
-                                </button>
-                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="desktop-nav" style="background-color: #222454 !important;">
+        <div class="desktop-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="/" style="padding: 5px 20px;">
-                        <img src="assets/images/logo.png" width="25%" alt="logo">
-                        <!-- <span>DANSHARIF COLLEGE OF</span> <br>
-                        <span>OF NURSING SCIENCES</span> -->
+                    <a class="navbar-brand" href="/" style="padding: 5px;">
+                        <img src="{{ asset('assets/images/logo.png') }}" style="width:300px;" alt="logo">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link active">
+                                <a href="/" class="nav-link">
                                     HOME
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
-                                    PROGRAMS
+                                    PROGRAMMES
                                     <i class="ri-arrow-down-s-line"></i>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Basic Nursing</a>
+                                        <a href="{{ url('programmes/basic-nursing') }}" class="nav-link">Basic Nursing</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Post Basic Nursing</a>
+                                        <a href="#" class="nav-link">Post Basic Nursing  <br> <em style="font-size: 11px; color: #92210f;">(under review)</em></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Public Health Nursing</a>
+                                        <a href="#" class="nav-link">Public Health Nursing <br> <em style="font-size: 11px; color: #92210f;">(under review)</em></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Basic Midwifery</a>
+                                        <a href="{{ url('programmes/basic-midwifery') }}" class="nav-link">Basic Midwifery</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Post Basic Midwifery</a>
+                                        <a href="#" class="nav-link">Post Basic Midwifery <br> <em style="font-size: 11px; color: #92210f;">(under review)</em></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Community Midwifery</a>
+                                        <a href="#" class="nav-link">Community Midwifery <br> <em style="font-size: 11px; color: #92210f;">(under review)</em></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Continuing Education</a>
+                                        <a href="#" class="nav-link">Continuing Education <br> <em style="font-size: 11px; color: #92210f;">(under review)</em></a>
                                     </li>
                                 </ul>
                             </li>
@@ -112,6 +105,9 @@
                                     </li>
                                     <li class="nav-item">
                                         <a href="http://dcns.schoolpal.ng/" target="_blank" class="nav-link">Apply Now</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">FAQs</a>
                                     </li>
                                 </ul>
                             </li>

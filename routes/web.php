@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'App\Http\Controllers\PageController@home');
+Route::get('programmes/basic-nursing', 'App\Http\Controllers\PageController@basic_nursing');
+Route::get('programmes/basic-midwifery', 'App\Http\Controllers\PageController@basic_midwifery');

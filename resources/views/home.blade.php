@@ -1,294 +1,179 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+@extends("layouts.app")
 
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/remixicon.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/odometer.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/date-picker.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/logo.png') }}">
-
-    <title>Dansharif College of Nursing Sciences</title>
-</head>
-<body>
-
-    @include("partials.header")
-
+@section("content")
 <section class="banner-area bg-3 jarallax pb-100" data-jarallax='{"speed": 0.3}'>
-        <div class="d-table">
+    <div class="d-table">
         <div class="d-table-cell">
-        <div class="container">
-        <div class="row align-items-center">
-        <div class="col-lg-6">
-        <div class="banner-content">
-        <h1>A world standard, fully equipped college of nursing sciences.</h1>
-        <div class="courses-link">
-        <a href="#">
-        Explore our programs
-        <i class="ri-arrow-right-line"></i>
-        </a>
-        <a href="#" class="study-online">
-        Apply for admission
-        <i class="ri-arrow-right-line"></i>
-        </a>
-        </div>
-        </div>
-        </div>
-        <div class="col-lg-6">
-        <div class="video-button">
-        <a href="https://www.facebook.com/watch/?ref=search&v=4408772222479233&external_log_id=8180bd05-ec94-4c85-9905-50a19b345914&q=dansharif%20college" class="popup-youtube video-btn">
-        <i class="flaticon-play-button"></i>
-        </a>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        <ul class="social-link">
-        <li>
-        <a href="#" target="_blank">
-        Facebook
-        </a>
-        </li>
-        <li>
-        <a href="#" target="_blank">
-        Instagram
-        </a>
-        </li>
-        <li>
-        <a href="#" target="_blank">
-        Twitter
-        </a>
-        </li>
-    <li>
-    <a href="#" target="_blank">
-    Linkedin
-    </a>
-    </li>
-    </ul>
-</section>
-
-
-<section class="find-courses-area">
-    <div class="container">
-        <form class="find-courses-from-bg find-courses-from-bg-three">
-            <h2>Find a program</h2>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="form-group">
-                        <select class="form-control">
-                            <option value="1">Select a Program</option>
-                            <option value="2">Basic Nursing</option>
-                            <option value="3">Basic Midwifery</option>
-                        </select>
-                        <i class="ri-arrow-down-s-line"></i>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="banner-content">
+                            <h1>A world standard, fully equipped college of nursing sciences.</h1>
+                            <div class="courses-link">
+                                <a href="#">
+                                    Explore our programmes
+                                    <i class="ri-arrow-right-line"></i>
+                                </a>
+                                <a href="#" class="study-online">
+                                    Apply for admission
+                                    <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="video-button">
+                            <a href="https://web.facebook.com/gandujehalarci/videos/4408772222479233" class="popup-youtube video-btn">
+                                <i class="flaticon-play-button"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <button type="submit" class="default-btn">
-                        Search
-                        <i class="ri-search-line"></i>
-                    </button>
+            </div>
+        </div>
+    </div>
+    <ul class="social-link">
+        <li>
+            <a href="https://www.facebook.com/gandujehalarci/" target="_blank">
+                Facebook
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/dansharif_nursing_science_kano/" target="_blank">
+                Instagram
+            </a>
+        </li>
+    </ul>
+</section>
+<section class="about-area ptb-100">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img mr-15">
+                    <img src="assets/images/about-img.jpg" alt="Image">
                 </div>
             </div>
-        </form>
+            <div class="col-lg-6">
+                <div class="about-content ml-15">
+                    <span>About Dansharif College of Nursing Sciences</span>
+                    <p>
+                        Dansharif College Of Nursing Sciences Kano, is incepted from the lifelong passion 
+                        and commitment to humanity of the Founder Alh Rabiu Dansharif, this is to respond 
+                        to the demand of quality and affordable health workers specifically Nurses and Midwives 
+                        in our community. At Dansharif College of Nursing Sciences, our education system inspires the next generation.
+                    </p>
+                    <h4>"a trained Nurse is a blessing to humanity"</h4>
+                    <a href="#" class="default-btn">
+                        Learn more
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
-
-
-<section class="simple-steps-area pt-100 pb-70">
-<div class="container">
-<div class="section-title">
-<h2>Simple steps to start</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-</div>
-<div class="row">
-<div class="col-lg-3 col-sm-6">
-<div class="single-simple-steps icon-bg-style">
-<i class="flaticon-search"></i>
-<h3>Querist</h3>
-<p>Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6">
-<div class="single-simple-steps icon-bg-style">
-<i class="flaticon-choosing"></i>
-<h3>Choose</h3>
-<p>Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6">
-<div class="single-simple-steps icon-bg-style">
-<i class="flaticon-contract"></i>
-<h3>Enroll</h3>
-<p>Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6">
-<div class="single-simple-steps icon-bg-style">
-<i class="flaticon-presentation"></i>
-<h3>Start</h3>
-<p>Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p>
-</div>
-</div>
-</div>
-</div>
+<section class="study-area pt-100 pb-70">
+    <div class="container">
+        <div class="section-title white-title">
+            <h2>Study at DCNS</h2>
+            <h4 style="color: #fff;">For enquiries, contact us on 082 444 343</h4>
+        </div>
+        <div class="row justify-content-center">
+            <div class="study-slider owl-carousel owl-theme">
+                <div class="single-study style-img">
+                    <a href="#">
+                        <img src="assets/images/study/study-1.jpg" alt="Image">
+                    </a>
+                    <div class="single-study-content text-center">
+                        <h3>
+                            <a href="#">Basic Nursing</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="single-study style-img">
+                    <a href="#">
+                        <img src="assets/images/study/study-2.jpg" alt="Image">
+                    </a>
+                    <div class="single-study-content text-center">
+                        <h3>
+                            <a href="#">Post Basic Nursing</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="single-study style-img">
+                    <a href="#">
+                        <img src="assets/images/study/study-2.jpg" alt="Image">
+                    </a>
+                    <div class="single-study-content text-center">
+                        <h3>
+                            <a href="#">Public Health Nursing</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="single-study style-img">
+                    <a href="#">
+                        <img src="assets/images/study/study-2.jpg" alt="Image">
+                    </a>
+                    <div class="single-study-content text-center">
+                        <h3>
+                            <a href="#">Basic Midwifery</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="single-study style-img">
+                    <a href="#">
+                        <img src="assets/images/study/study-2.jpg" alt="Image">
+                    </a>
+                    <div class="single-study-content text-center">
+                        <h3>
+                            <a href="#">Post Basic Midwifery</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="single-study style-img">
+                    <a href="#">
+                        <img src="assets/images/study/study-2.jpg" alt="Image">
+                    </a>
+                    <div class="single-study-content text-center">
+                        <h3>
+                            <a href="#">Community Midwifery</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="single-study style-img">
+                    <a href="#">
+                        <img src="assets/images/study/study-2.jpg" alt="Image">
+                    </a>
+                    <div class="single-study-content text-center">
+                        <h3>
+                            <a href="#">Continuing Education</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-
-
-<section class="about-area about-area-style-three bg-color-f8fafb ptb-100">
-<div class="container">
-<div class="row align-items-center">
-<div class="col-xl-6">
-<div class="about-img-two mr-15">
-<img src="assets/images/about-img-3.jpg" alt="Image">
-<div class="about-shape">
-<img src="assets/images/about-shape.png" alt="Image">
-</div>
-</div>
-</div>
-<div class="col-xl-6">
-<div class="about-content ml-15">
-<span>About our university</span>
-<h2>Our education system inspires the next generation</h2>
-<p>Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
-<a href="about.html" class="default-btn">
-Find out more
-<i class="ri-arrow-right-line"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-
-<section class="study-area study-area-style-two pt-100 pb-70">
-<div class="container">
-<div class="section-title">
-<h2>Browse courses by study area</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-</div>
-<div class="row justify-content-center">
-<div class="study-slider owl-carousel owl-theme">
-<div class="single-study style-img">
-<a href="study-online.html">
-<img src="assets/images/study/study-1.jpg" alt="Image">
-</a>
-<div class="single-study-content">
-<i class="flaticon-finance"></i>
-<h3>
-<a href="study-online.html">Business and finance</a>
-</h3>
-<p>Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p>
-<a href="study-online.html" class="read-more">
-Find out more
-<span class="ri-arrow-right-line"></span>
-</a>
-</div>
-</div>
-<div class="single-study style-img">
-<a href="study-online.html">
-<img src="assets/images/study/study-2.jpg" alt="Image">
-</a>
-<div class="single-study-content">
-<i class="flaticon-data-scientist"></i>
-<h3>
-<a href="study-online.html">IT and data science</a>
-</h3>
-<p>Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p>
-<a href="study-online.html" class="read-more">
-Find out more
-<span class="ri-arrow-right-line"></span>
-</a>
-</div>
-</div>
-<div class="single-study style-img">
-<a href="study-online.html">
-<img src="assets/images/study/study-3.jpg" alt="Image">
-</a>
-<div class="single-study-content">
-<i class="flaticon-compliant"></i>
-<h3>
-<a href="study-online.html">Law and criminology</a>
-</h3>
-<p>Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p>
-<a href="study-online.html" class="read-more">
-Find out more
-<span class="ri-arrow-right-line"></span>
-</a>
-</div>
-</div>
-<div class="single-study style-img">
-<a href="study-online.html">
-<img src="assets/images/study/study-4.jpg" alt="Image">
-</a>
-<div class="single-study-content">
-<i class="flaticon-health"></i>
-<h3>
-<a href="study-online.html">Health and medicine</a>
-</h3>
-<p>Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p>
-<a href="study-online.html" class="read-more">
-Find out more
-<span class="ri-arrow-right-line"></span>
-</a>
-</div>
-</div>
-<div class="single-study style-img">
-<a href="study-online.html">
-<img src="assets/images/study/study-5.jpg" alt="Image">
-</a>
-<div class="single-study-content">
-<i class="flaticon-data-scientist"></i>
-<h3>
-<a href="study-online.html">Business and finance</a>
-</h3>
-<p>Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p>
-<a href="study-online.html" class="read-more">
-Find out more
-<span class="ri-arrow-right-line"></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-
 <section class="our-campus-information-area pb-100">
-<div class="container">
-<div class="row align-items-center">
-<div class="col-xl-7">
-<div class="campus-img">
-<img src="assets/images/campus-img.jpg" alt="Image">
-</div>
-</div>
-<div class="col-xl-5">
-<div class="campus-content">
-<span>Our campus information</span>
-<h2>We are proud that more than 50 students from different nationalities study on our campus</h2>
-<p>Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus.</p>
-<a href="campus-information.html" class="read-more">
-Find out more
-<span class="ri-arrow-right-line"></span>
-</a>
-</div>
-</div>
-</div>
-</div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-7">
+                <div class="campus-img">
+                    <img src="assets/images/campus-img.jpg" alt="Image">
+                </div>
+            </div>
+            <div class="col-xl-5">
+                <div class="campus-content">
+                    <span>Our Campus</span>
+                    <h2>At DCNS, we are proud to have different students across diffrent zones, tribes, backgrounds and religions.</h2>
+                    <a href="campus-information.html" class="read-more">
+                        Find out more
+                        <span class="ri-arrow-right-line"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
@@ -739,142 +624,4 @@ A day in the life of a student
 </div>
 </section>
 
-
-<footer class="footer-area black-bg-color">
-<div class="container">
-<div class="row align-items-center justify-content-center">
-<div class="col-lg-3 col-sm-6">
-<div class="single-footer-widget bg-f9f5f1">
-<a href="index.html" class="logo">
-<img src="assets/images/white-logo.png" alt="Image">
-</a>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptas animi, minima velit corrupti fugit! Tenetur animi suscipit, reiciendis ad consectetur fugit</p>
-<ul class="social-icon">
-<li>
-<span>Follow us:</span>
-</li>
-<li>
-<a href="https://www.facebook.com/" target="_blank">
-<i class="ri-facebook-fill"></i>
-</a>
-</li>
-<li>
-<a href="https://www.instagram.com/" target="_blank">
-<i class="ri-instagram-line"></i>
-</a>
-</li>
-<li>
-<a href="https://www.linkedin.com/" target="_blank">
-<i class="ri-linkedin-fill"></i>
-</a>
-</li>
-<li>
-<a href="https://twitter.com/" target="_blank">
-<i class="ri-twitter-fill"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6">
-<div class="single-footer-widget">
-<h3>Useful link</h3>
-<ul class="import-link">
-<li>
-<a href="application.html">Application</a>
-</li>
-<li>
-<a href="faq.html">FAQ</a>
-</li>
-<li>
-<a href="alumni.html">Alumni</a>
-</li>
-<li>
-<a href="terms-conditions.html">Terms & conditions</a>
-</li>
-<li>
-<a href="privacy-policy.html">Privacy policy</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6">
-<div class="single-footer-widget">
-<h3>Study</h3>
-<ul class="import-link">
-<li>
-<a href="courses.html">Find a course</a>
-</li>
-<li>
-<a href="application.html">Admissions</a>
-</li>
-<li>
-<a href="our-professors.html">Scholarships</a>
-</li>
-<li>
-<a href="campus-information.html">Study on campus</a>
-</li>
-<li>
-<a href="tuition-fees.html">Fees and costs</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6">
-<div class="single-footer-widget">
-<h3>Inquiries</h3>
-<ul class="address">
-<li class="location">
-<i class="ri-map-pin-line"></i>
-<span>Address</span>
-1312 Greg Street, Sparks. NV 88441
-</li>
-<li>
-<i class="ri-mail-line"></i>
-<span>Email</span>
-<a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#2a43444c456a5f44494504494547"><span class="__cf_email__" data-cfemail="ee87808881ae9b808d81c08d8183">[email&#160;protected]</span></a>
-</li>
-<li>
-<i class="ri-phone-line"></i>
-<span>Phone</span>
-<a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</footer>
-
-
-<div class="copy-right-area">
-<div class="container">
-<p>
-Copyright <i class="ri-copyright-line"></i> 2021 Dansharif College of Nursing Sciences</a>
-</p>
-</div>
-</div> -->
-
-
-<div class="go-top">
-<i class="ri-arrow-up-s-fill"></i>
-<i class="ri-arrow-up-s-fill"></i>
-</div>
-
-<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
-<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('assets/js/meanmenu.min.js') }}"></script>
-<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('assets/js/wow.min.js') }}"></script>
-<script src="{{ asset('assets/js/appear.min.js') }}"></script>
-<script src="{{ asset('assets/js/odometer.min.js') }}"></script>
-<script src="{{ asset('assets/js/jarallax.min.js') }}"></script>
-<script src="{{ asset('assets/js/bootstrap-datepicker.min.js') }}"></script>
-<script src="{{ asset('assets/js/magnific-popup.min.js') }}"></script>
-<script src="{{ asset('assets/js/form-validator.min.js') }}"></script>
-<script src="{{ asset('assets/js/contact-form-script.js') }}"></script>
-<script src="{{ asset('assets/js/ajaxchimp.min.js') }}"></script>
-<script src="{{ asset('assets/js/custom.js"></script>
-</body>
-
-</html>
+@endsection
