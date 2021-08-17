@@ -39,7 +39,7 @@
                 <div class="main-default-content mr-15">
                     <img src="{{ asset('assets/images/basic-nursing.jpg') }}" alt="Image">
                     <div class="gap-20"></div>
-                    <h3>Introduction</h3>
+                    <h3>Overview</h3>
                     <p>
                         The contemporary nurse constantly faces series of technological,
                         management, administrative, political and economic changes

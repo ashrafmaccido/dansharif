@@ -121,7 +121,7 @@
                                         <a href="#" class="nav-link">Accomodation</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">IT Facilities</a>
+                                        <a href="#" class="nav-link">IT Facility</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">School Bus</a>
