@@ -35,7 +35,7 @@
                     <h3>Programmes</h3>
                     <ul class="import-link">
                         <li>
-                            <a href="{{ url('programmes/basic-nursing') }}">Basic Nursing</a>
+                            <a href="{{ url('programmes/nursing') }}">Basic Nursing</a>
                         </li>
                         <li>
                             <a href="{{ url('programmes/community-nursing') }}">Community Nursing</a>

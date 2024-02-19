@@ -69,7 +69,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="{{ url('programmes/basic-nursing') }}" class="nav-link">ND/HND Nursing</a>
+                                        <a href="{{ url('programmes/nursing') }}" class="nav-link">ND/HND Nursing</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="{{ url('programmes/community-nursing') }}" class="nav-link">Community Nursing</a>
