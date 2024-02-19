@@ -38,22 +38,13 @@
                             <a href="{{ url('programmes/basic-nursing') }}">Basic Nursing</a>
                         </li>
                         <li>
-                            <a href="#">Post Basic Nursing</a>
-                        </li>
-                        <li>
-                            <a href="#">Public Health Nursing</a>
+                            <a href="{{ url('programmes/community-nursing') }}">Community Nursing</a>
                         </li>
                         <li>
                             <a href="{{ url('programmes/basic-midwifery') }}">Basic Midwifery</a>
                         </li>
                         <li>
-                            <a href="#">Post Basic Midwifery</a>
-                        </li>
-                        <li>
-                            <a href="#">Community Midwifery</a>
-                        </li>
-                        <li>
-                            <a href="#">Continuing Education</a>
+                            <a href="{{ url('programmes/community-midwifery') }}">Community Midwifery</a>
                         </li>
                     </ul>
                 </div>

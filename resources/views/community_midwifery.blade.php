@@ -20,14 +20,14 @@
 <div class="page-title-area bg-21">
     <div class="container">
         <div class="page-title-content">
-            <h2>Basic Midwifery</h2>
+            <h2>Community Midwifery</h2>
             <ul>
                 <li>
                     <a href="/">
                         Home
                     </a>
                 </li>
-                <li class="active">Basic Midwifery</li>
+                <li class="active">Community Midwifery</li>
             </ul>
         </div>
     </div>
@@ -46,7 +46,7 @@
                         and neonatal mortality rate of 40/1000 with majority of the deaths occurring at the rural 
                         community level (NDHS 2008). 
                     </p> 
-                    <p> Basic Midwifery is a 3 years program specifically designed for the training of midwives 
+                    <p> Community Midwifery is a 3 years program specifically designed for the training of midwives 
                         who are critical to the delivery of safe maternal and child health services at the community level. 
                         At the conclusion of this programme, midwives should be capable of functioning in all areas including Primary Health Care, make independent judgment, 
                         manage normal midwifery, provide appropriate care including family planning and refer individual with high risk pregnancies.
@@ -61,7 +61,7 @@
                     <div class="gap-20"></div>
                     <h3>Requirements</h3>
                     <p>
-                        Candidates for admission into Basic Midwifery Programme must possess the senior secondary 
+                        Candidates for admission into Community Midwifery Programme must possess the senior secondary 
                         school certificate or its equivalent with credit in at least five (5) subjects i.e. Physics, 
                         Chemistry, Biology, English and Mathematics at not more than two (2) sittings.
                     </p>
@@ -82,16 +82,18 @@
                             </li>
                             <li>
                                 Tuition
-                                <span>₦450,000 / year</span>
+                                <span>₦414,000 / year</span>
+                                <br>
+                                (including accomodation)
                             </li>
-                            <li>
+                            {{-- <li>
                                 Requirements
                                 <span>WAEC or NECO or NBTE</span>
-                            </li>
-                            <li>
+                            </li> --}}
+                            {{-- <li>
                                 Accomodation (optional)
                                 <span>₦70,000 / year</span>
-                            </li>
+                            </li> --}}
                             <li>
                                 Language
                                 <span>English</span>
@@ -114,11 +116,11 @@
                         <li>
                             <a href="{{ url('programmes/nursing') }}">ND/HND Nursing</a>
                         </li>
-                         <li>
-                            <a href="{{ url('programmes/community-nursing') }}">Community Nursing</a>
+                        <li>
+                            <a href="{{ url('programmes/basic-midwifery') }}">Community Midwifery</a>
                         </li>
                         <li>
-                            <a href="{{ url('programmes/community-midwifery') }}">Community Midwifery</a>
+                            <a href="{{ url('programmes/community-nursing') }}">Community Nursing</a>
                         </li>
                     </ul>
                 </div>

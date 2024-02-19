@@ -15,5 +15,7 @@ use App\Http\Controllers;
 */
 
 Route::get('/', 'App\Http\Controllers\PageController@home');
-Route::get('programmes/basic-nursing', 'App\Http\Controllers\PageController@basic_nursing');
+Route::get('programmes/nursing', 'App\Http\Controllers\PageController@nursing');
+Route::get('programmes/community-nursing', 'App\Http\Controllers\PageController@community_nursing');
 Route::get('programmes/basic-midwifery', 'App\Http\Controllers\PageController@basic_midwifery');
+Route::get('programmes/community-midwifery', 'App\Http\Controllers\PageController@community_midwifery');

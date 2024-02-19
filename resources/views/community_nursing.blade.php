@@ -20,14 +20,14 @@
 <div class="page-title-area bg-21">
     <div class="container">
         <div class="page-title-content">
-            <h2>Basic Nursing</h2>
+            <h2>Community Nursing</h2>
             <ul>
                 <li>
                     <a href="/">
                         Home
                     </a>
                 </li>
-                <li class="active">Basic Nursing</li>
+                <li class="active">Community Nursing</li>
             </ul>
         </div>
     </div>
@@ -50,7 +50,7 @@
                         in the health care industry today.
                     </p>
                     <p>
-                        Basic Nursing is a 3 years program specifically designed to instill the appropriate knowledge, skills and attitude to
+                        Community Nursing is a 3 years program specifically designed to instill the appropriate knowledge, skills and attitude to
                         respond and adapt to current and future health priorities and needs. At the conclusion of this programme, nurses
                         should be capable to face these current and rapidly changing challenges within the health care industry.
                     </p>
@@ -65,7 +65,7 @@
                     <div class="gap-20"></div>
                     <h3>Requirements</h3>
                     <p>
-                        Candidate for admission into Basic Nursing Programme must possess the senior secondary certificate or its equivalent with five 
+                        Candidate for admission into Community Nursing Programme must possess the senior secondary certificate or its equivalent with five 
                         credits in English Language, Mathematics, Physics, Chemistry and Biology at not more 2 sitting 
                         (NECO-NECO or WAEC-WAEC).  
                     </p>
@@ -93,16 +93,18 @@
                             </li>
                             <li>
                                 Tuition
-                                <span>₦380,000 / year</span>
+                                <span>₦414,000 / year</span>
+                                <br>
+                                (including accomodation)
                             </li>
-                            <li>
+                            {{-- <li>
                                 Requirements
                                 <span>WAEC or NECO or NBTE</span>
-                            </li>
-                            <li>
+                            </li> --}}
+                            {{-- <li>
                                 Accomodation (optional)
-                                <span>₦50,000 / year</span>
-                            </li>
+                                <span>₦70,000 / year</span>
+                            </li> --}}
                             <li>
                                 Language
                                 <span>English</span>
@@ -123,22 +125,13 @@
                     <h3>Programmes</h3>
                     <ul>
                         <li>
-                            <a href="#">Post Basic Nursing</a>
-                        </li>
-                        <li>
-                            <a href="#">Public Health Nursing</a>
+                            <a href="{{ url('programmes/nursing') }}">ND/HND Nursing</a>
                         </li>
                         <li>
                             <a href="{{ url('programmes/basic-midwifery') }}">Basic Midwifery</a>
                         </li>
                         <li>
-                            <a href="#">Post Basic Midwifery</a>
-                        </li>
-                        <li>
-                            <a href="#">Community Midwifery</a>
-                        </li>
-                        <li>
-                            <a href="#">Continuing Education</a>
+                            <a href="{{ url('programmes/community-midwifery') }}">Community Midwifery</a>
                         </li>
                     </ul>
                 </div>

@@ -69,26 +69,29 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="{{ url('programmes/basic-nursing') }}" class="nav-link">Basic Nursing</a>
+                                        <a href="{{ url('programmes/basic-nursing') }}" class="nav-link">ND/HND Nursing</a>
                                     </li>
                                     <li class="nav-item">
+                                        <a href="{{ url('programmes/community-nursing') }}" class="nav-link">Community Nursing</a>
+                                    </li>
+                                     <li class="nav-item">
+                                        <a href="{{ url('programmes/basic-midwifery') }}" class="nav-link">Basic Midwifery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('programmes/community-midwifery') }}" class="nav-link">Community Midwifery</a>
+                                    </li>
+                                    {{-- <li class="nav-item">
                                         <a href="#" class="nav-link">Post Basic Nursing  <br> <em style="font-size: 11px; color: #92210f;">(under review)</em></a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">Public Health Nursing <br> <em style="font-size: 11px; color: #92210f;">(under review)</em></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('programmes/basic-midwifery') }}" class="nav-link">Basic Midwifery</a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a href="#" class="nav-link">Post Basic Midwifery <br> <em style="font-size: 11px; color: #92210f;">(under review)</em></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Community Midwifery <br> <em style="font-size: 11px; color: #92210f;">(under review)</em></a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a href="#" class="nav-link">Continuing Education <br> <em style="font-size: 11px; color: #92210f;">(under review)</em></a>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </li>
                             <li class="nav-item">

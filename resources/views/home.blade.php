@@ -92,11 +92,41 @@
                     </a>
                     <div class="single-study-content text-center">
                         <h3>
-                            <a href="#">Basic Nursing</a>
+                            <a href="#">ND/HND Nursing</a>
                         </h3>
                     </div>
                 </div>
                 <div class="single-study style-img">
+                    <a href="#">
+                        <img src="assets/images/study/study-2.jpg" alt="Image">
+                    </a>
+                    <div class="single-study-content text-center">
+                        <h3>
+                            <a href="#">Community Nursing</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="single-study style-img">
+                    <a href="#">
+                        <img src="assets/images/study/study-4.jpg" alt="Image">
+                    </a>
+                    <div class="single-study-content text-center">
+                        <h3>
+                            <a href="#">Basic Midwifery</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="single-study style-img">
+                    <a href="#">
+                        <img src="assets/images/study/study-5.jpg" alt="Image">
+                    </a>
+                    <div class="single-study-content text-center">
+                        <h3>
+                            <a href="#">Community Midwifery</a>
+                        </h3>
+                    </div>
+                </div>
+                {{-- <div class="single-study style-img">
                     <a href="#">
                         <img src="assets/images/study/study-2.jpg" alt="Image">
                     </a>
@@ -155,7 +185,7 @@
                             <a href="#">Continuing Education</a>
                         </h3>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
