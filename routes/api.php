@@ -21,6 +21,13 @@ Route::get('remita-payment-notifications', function(Request $request) {
     ], 200);
 });
 
+Route::post('remita-payment-notifications', function(Request $request) {
+    return response()->json([
+        'status' => 200,
+        'statusText' => 'OK',
+    ], 200);
+});
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
